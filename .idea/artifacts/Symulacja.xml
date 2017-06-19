@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Symulacja">
+    <output-path>$PROJECT_DIR$/out/artifacts/Symulacja.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Symulacja/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Symulacja" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/jersey-client-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jersey-core-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jersey-json-1.8.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/com.sun.jersey.jersey-core-1.4.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/gson-2.2.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/jackson-all-1.9.0.jar" />
+          <element id="library" level="project" name="Hibernate 5.2.9-5.2.9" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
